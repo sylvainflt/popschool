@@ -2,44 +2,56 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#conteneurGlobal{
+#conteneurGlobal {
     width: 1100px;
     margin: 0 auto;
     background-image: url("./images/texture.png");
 }
+
+
 /*----------header--------------*/
-header{
+
+header {
     display: flex;
     flex-direction: column;
 }
+
 header #logo2 {
     margin-left: 50px;
     margin-top: 20px;
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     margin-right: 100px;
     margin-bottom: 0;
 }
-nav ul li{
+
+nav ul li {
     padding: 20px;
     padding-bottom: 0;
 }
+
 nav ul a {
     text-decoration: none;
     color: grey;
 }
+
+
 /*--------section overwatch---------*/
+
 section.overWatch {
     display: flex;
     justify-content: center;
 }
+
 .overWatch.images {
     display: flex;
     flex-direction: column;
 }
+
 div.images {
     margin: 20px;
     padding: 10px;
@@ -48,41 +60,58 @@ div.images {
     border-radius: 10px;
     height: max-content;
 }
+
 .description {
     margin: 20px;
 }
+
 div.milieu {
     display: flex;
     justify-content: center;
 }
+
 div.milieu img {
-    margin-right: 3px; 
+    margin-right: 3px;
 }
+
 div.bas {
     text-align: center;
 }
+
 article.description p {
     text-align: justify;
     width: 600px;
 }
+
 article.description a {
     text-decoration: none;
     color: #f18329;
 }
+
 article.description h2 {
     color: #f18329;
 }
-article.description img{
+
+article.description img {
     margin-top: 20px;
 }
+
 img {
     border-radius: 7px;
 }
+
+.images img:hover {
+    transform: scale(3);
+}
+
+
 /*----------------------------------*/
+
 section.fortnite {
     display: flex;
     justify-content: center;
 }
+
 .fortnite.images {
     display: flex;
     flex-direction: column;
@@ -92,6 +121,7 @@ section.pubg {
     display: flex;
     justify-content: center;
 }
+
 .pubg.images {
     display: flex;
     flex-direction: column;
